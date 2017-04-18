@@ -1,10 +1,10 @@
 /*
  * 	Author: Giulio Busato
- * 			1111268
- * 			Master Student
- * 			University of Padua
+ * 		1111268
+ * 		Master Student
+ * 		University of Padua
  *
- *	Date:	10 April 2017
+ *	Date:	April 2017
  *
  * */
 
@@ -39,17 +39,7 @@ public class Grass {
 		System.out.println("\t- find frequent suffix pairs:\t"+(freqPairsTime-partitionsTime)+"ms");
 		System.out.println("\t- identify classes:\t\t"+(stopTime-freqPairsTime)+"ms");
 		System.out.println("\t- total stemming time:\t\t"+(stopTime-startTime)+"ms");
-//		System.out.println("------------------------------");
-		
-		
-		
-/*		System.out.println("\n---------- Stemming ----------");
-		System.out.println(" - Partition the words:\t\t"+(partitionsTime-startTime)+"ms");
-		System.out.println(" - Find frequent suffix pairs:\t"+(freqPairsTime-partitionsTime)+"ms");
-		System.out.println(" - Identify classes:\t\t"+(stopTime-freqPairsTime)+"ms");
-		System.out.println(" - Total time:\t\t\t"+(stopTime-startTime)+"ms");
-		System.out.println("------------------------------");
-*/		return stems;
+		return stems;
 	}
 	
 	// this method return a list of first and last positions of each class with at least two words
