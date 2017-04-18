@@ -4,7 +4,7 @@
  * 		Master Student
  * 		University of Padua
  *
- *	Date:	10 April 2017
+ *	Date:	April 2017
  *
  * */
 
